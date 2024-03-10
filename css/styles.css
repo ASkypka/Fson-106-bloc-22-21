@@ -1,0 +1,86 @@
+:root {
+	--black: #111;
+	--orange: #fd9222;
+	--violet: #1e1823;
+	--beige: #fcf1e0;
+	--light: #fafafa;
+	--gray: #4c4c4c;
+	--white: #fff;
+	--marker-body: #4c4c4c;
+	--marker-border: #eceded;
+}
+
+/* <!-- milk-chocolate --> */
+
+
+.ingridients {
+padding: 120px 0 60px ;
+}
+
+.ingredients-box {
+    width: 1168px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.chapter-section {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    width: 412px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.orange-text {
+    color: var(--orange);
+}
+
+.ingridients-list {
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 32px;
+ list-style: none;
+
+}
+
+.ingridients-component {
+width: calc((100% - 32px * 3) / 4);
+padding: 28px 23px;
+/* background-color: var(--orange); */
+border-radius: 15px;
+}
+
+.ingridients-component:nth-child(4n + 1) {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.ingridients-component:nth-child(2n) {
+    background-color: transparent;
+    color: var(--black);
+    border: 1px solid var(--orange);
+}
+
+.ingridients-component:nth-child(4n + 3) {
+    background-color: var(--violet);
+    color: var(--white);
+}
+
+.ingridients-name {
+font-weight: 600;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+margin: 0;
+margin-top: 36px;
+}
